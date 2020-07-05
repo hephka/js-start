@@ -12,7 +12,7 @@ let answer = prompt(question)
 // On peut utiliser la fonction isNaN(answer) pour vérifier si la saisie est numérique
 
 // affiche un de messages suivants selon le cas :
-// vous n'avez pas saisi de valeur numérique correcte
-// non c'était plus tard
-// non c'était avant
-// Bravo c'est une bonne réponse !
+// Vous n'avez pas saisi de valeur numérique correcte
+// Non, c'était plus tard
+// Non, c'était avant
+// Bravo, c'est une bonne réponse !
