@@ -1,24 +1,21 @@
 "use strict"
 // calculer la somme de 1 jusqua'a 10
-/* let n
+let n = 10
 let total = 0
-let step = 1
 
+let step = 1
 while (step <= n) {
   total += step
   step++
 }
-*/
-function sumFrom1ToN(n) {
-  let total = 0
-  let step = 1
 
-  while (step <= n) {
-    total += step
-    step++
-  }
-  return total
+/*
+let step = 0
+while (step < n) {
+  step++
+  total += step
+  
 }
+*/
 
-sumFrom1ToN(10)
-alert(sumFrom1ToN(10))
+console.log(total)

@@ -6,4 +6,4 @@ let a = prompt("Saisi un nombre")
 let b = prompt("Saisi deuxième nombre")
 /* demande b jusqu'au moment où tu obtiennes une valeur numérique */
 
-/* alert le résultat de l'addition */
+/* afficher le résultat de l'addition */

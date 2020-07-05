@@ -1,6 +1,6 @@
-// mets en place mode strict
-// déclare la variable ()
-// refactor le code d'ex. 2 en introduisant 3ème variable jsAge
+/* refactor le code d'ex. 2 en introduisant 3ème variable jsAge
+si ce n'était pas le cas utilise template litterals `... ${} ....`
+*/
 "use strict"
 // déclare une variable message
 let message
