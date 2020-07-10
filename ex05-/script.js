@@ -1,10 +1,7 @@
 "use strict"
-const question = "De quelle année date ECMA6 (ECMAScript-2015) ?"
-const answer = prompt(question)
-let message
-if (answer == 2015) {
-  message = "Bravo, c'est une bonne réponse !"
-} else {
-  message = "Ce n'est pas une bonne réponse 🤔"
-}
-alert(message)
+/* Créer une variable question 'De quelle année date ECMA6 (ECMAScript-2015) ?'
+Créer une variable answer, affecter lui la réponse à la question */
+/* Créer la variable message qui va prender 'Bravo, c'est une bonne réponse !
+ou 'Ce n'est pas une bonne réponse 🤔'
+*/
+/* afficher message */
