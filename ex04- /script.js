@@ -1,16 +1,8 @@
 "use strict"
-const question = "Confirmez-vous d'être majeur ?"
-const answer = confirm(question)
-let message
-if (answer) {
-  message = "Bienvenue !"
-} else {
-  message = "Vous n'être pas autorisé !"
-}
-
-/* on aurait pu utiliser l'opérateur conditionnel (ternary operator)
-
-let message = answer ? "Bienvenue !" : "Vous n'être pas autorisé !"
-
-*/
-alert(message)
+/* demander confirmation 'Confirmez-vous d'être majeur ?' 
+et affecter la réponse à la variable answer */
+/* créer la variable message
+affecter-lui 'Bienvenue !' si la réponse et positive ou 
+'Vous n'être pas autorisé !' dans le cas contraire */
+/* Afficher le message */
+/* 2 solutions avec if et avec l'opérateur conditionnel (ternary operator) */
