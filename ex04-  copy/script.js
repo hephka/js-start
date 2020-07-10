@@ -3,12 +3,7 @@
 et affecter la réponse à la variable answer */
 const answer = confirm(`Confirmez-vous d'être majeur ?`)
 console.log(answer)
-let message
-if (answer) {
-    message = `Bienvenue !`
-} else {
-    message = `Vous n'êtes pas autorié !`
-}
+let message = answer ? "Bienvenue !" : `Vous n'êtes pas autorisé !`
 console.log(message)
 alert(message)
 /* créer la variable message
