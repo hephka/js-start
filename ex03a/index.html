@@ -11,14 +11,32 @@
     <a href="/">retour</a>
     <script>
       // mets en place mode strict
+      "use strict"
+
       // déclare la variable message
       // déclare la variable age
       // pose la question "Quel age as-tu ?" et affecte la réponse à la variable age
+      let message = `Quel âge as-tu ?`
+      let age = prompt(message)
+      console.log(message)
+
       // affecte à la variable message le texte suivant "Tu as .. ans et JavaScript a 25 ans."
+      message = `Tu as ${age} ans et JavaScript a 25 ans.`
+      console.log(message)
+
       // affiche le message
+      alert(message)
+
       // augemente l'age de 1
+       ++age
+
       // change la valeur de message "L'année prochaine t'auras .. ans et JavaScript aura 26 ans."
+      message = `L'année prochaine t'auras ${age} ans et JavaScript aura 26 ans.`
+      console.log(message)
+
       // affiche le message
+      alert(message)
+
     </script>
   </body>
 </html>
